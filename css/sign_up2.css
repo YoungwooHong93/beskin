@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+form {
+    margin: auto;
+    text-align: center;
+    opacity: 0.8;
+}
+
+fieldset {
+    background-color: bisque;
+    margin: 30px;
+    font-size: 20px;
+    width: 500px;
+    height: 850px;
+    display: inline-block;
+
+}
+
+label {
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+div,
+p,
+button {
+    margin: 10px;
+}
+
+input {
+    text-align: center;
+    height: 30px;
+}
+
+input[placeholder] {
+    font-size: 16px;
+}
+
+img {
+    width: 360px;
+}
+
+strong::after {
+    content: "*";
+    color: red;
+}
+
+button {
+    width: 100px;
+}
